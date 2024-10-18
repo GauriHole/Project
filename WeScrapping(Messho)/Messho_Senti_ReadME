@@ -1,0 +1,21 @@
+Task :- Analyzing Customer Reviews(Messho_Site)
+
+1. Business Objective:- The main goal is to study customer reviews of a product to understand their opinions. 
+   This helps in making improvements to the product based on what customers are saying.
+
+2. Constraints:- 
+    2.1 The data must be collected legally, like using Amazon's API or by following the website’s rules for scraping.
+    2.2 Since feedback changes over time, it may be necessary to get new reviews regularly to stay updated.
+
+3. Data Dictionary:-
+    3.1 ReviewText:  (Text) The written feedback from customers, very important for understanding customer feelings.
+    3.2 ReviewRating: (Number) The rating given by customers (out of 5), which can help show overall satisfaction.
+
+4. Data Pre-Processing and Extraction:- The Python code is used to collect reviews and ratings from a product page on Meesho. Here's what the code does:
+    4.1 It sends a request to the product page like a web browser.
+    4.2 It uses `BeautifulSoup` to read and understand the webpage content.
+    4.3 It finds the sections where reviews and ratings are mentioned.
+    4.4 It cleans up the data by removing extra spaces and making sure the number of reviews and ratings match.
+    4.5 Finally, it saves this information into a table (DataFrame) and stores it in a file called `reviews_and_ratings.csv` for easy access.
+
+With this data, we can analyze customer feedback, helping us better understand their experiences and improve the product based on their input.
