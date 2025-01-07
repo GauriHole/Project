@@ -8,7 +8,7 @@ Welcome to my project collection! This repository contains projects I've worked 
 3. Machine Learning: Use cases and implementations of ML algorithms.
 4. Java: Core Java programs and application development.
 
-#💡 Highlights
+# 💡 Highlights
 - Practical examples and solutions.
 - Organized by categories for easy navigation.
 - Continuously updated as I learn and grow.
